@@ -2,7 +2,7 @@
   "name": "nc-gcode-fanuc",
   "main": "./lib/nc-gcode",
   "version": "0.3.0",
-  "description": "Syntax highlighting for Fanuc Gcode.",
+  "description": "Syntax highlighting for Fanuc Gcode. Forked from: https://github.com/Milys/NC-Gcode",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "nc-gcode:toggle"
