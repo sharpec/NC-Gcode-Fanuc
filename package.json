@@ -1,13 +1,13 @@
 {
   "name": "nc-gcode",
   "main": "./lib/nc-gcode",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Syntax highlighting for Gcode.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "nc-gcode:toggle"
   },
-  "repository": "https://github.com/Milys/nc-gcode",
+  "repository": "https://github.com/sharpec/NC-Gcode",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
