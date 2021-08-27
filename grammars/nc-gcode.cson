@@ -1,28 +1,11 @@
 'fileTypes': [
-  'ptp'
   'nc'
   'gcode'
   'ncf'
   'cnc'
-  'eia'
-  'maz'
-  'tap'
-  'fnc'
-  'dnc'
   'dnc'
   'ncg'
   'gc'
-  'fan'
-  'fgc'
-  'din'
-  'hnc'
-  'ncp'
-  'gcd'
-  'mpf'
-  'ngc'
-  'cnc'
-  'pim'
-  'plt'
   'ncc'
 ]
 'foldingStartMarker': '\\('
@@ -55,15 +38,15 @@
     'name': 'support.function.rzcode.gcod'
   }
   {
-    'match': '(?i)[XAUIQ][ \\t]*[\\-\\+]?[0-9\\.]+'
+    'match': '(?i)[XAUIL][ \\t]*[\\-\\+]?[0-9\\.]+'
     'name': 'constant.xcode.nc-gcode'
   }
   {
-    'match': '(?i)[YBVJ][ \\t]*[\\-\\+]?[0-9\\.]+'
+    'match': '(?i)[YBVJQ][ \\t]*[\\-\\+]?[0-9\\.]+'
     'name': 'string.ycode.nc-gcode'
   }
   {
-    'match': '[pPlLeE]'
+    'match': '[pPeE]'
     'name': 'string.parameter.nc-gcode'
   }
   {
