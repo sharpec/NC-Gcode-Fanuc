@@ -1,8 +1,8 @@
 {
-  "name": "nc-gcode",
+  "name": "nc-gcode-fanuc",
   "main": "./lib/nc-gcode",
   "version": "0.2.1",
-  "description": "Syntax highlighting for Gcode.",
+  "description": "Syntax highlighting for Fanuc Gcode.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "nc-gcode:toggle"
