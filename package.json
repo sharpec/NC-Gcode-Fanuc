@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "nc-gcode:toggle"
   },
-  "repository": "https://github.com/sharpec/NC-Gcode",
+  "repository": "https://github.com/sharpec/NC-Gcode-Fanuc",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
