@@ -55,7 +55,7 @@
     'name': 'support.function.rzcode.gcod'
   }
   {
-    'match': '(?i)[XAUI][ \\t]*[\\-\\+]?[0-9\\.]+'
+    'match': '(?i)[XAUIQ][ \\t]*[\\-\\+]?[0-9\\.]+'
     'name': 'constant.xcode.nc-gcode'
   }
   {
@@ -63,7 +63,7 @@
     'name': 'string.ycode.nc-gcode'
   }
   {
-    'match': '[pPqQeE]'
+    'match': '[pPlLeE]'
     'name': 'string.parameter.nc-gcode'
   }
   {
