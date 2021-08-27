@@ -1,7 +1,7 @@
 {
   "name": "nc-gcode-fanuc",
   "main": "./lib/nc-gcode",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Syntax highlighting for Fanuc Gcode. Forked from: https://github.com/Milys/NC-Gcode",
   "keywords": [],
   "activationCommands": {
