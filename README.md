@@ -1,4 +1,6 @@
-# nc-gcode package
+# nc-gcode-fanuc package
+
+forked from: https://github.com/Milys/NC-Gcode
 
 G-code is Numerical Control (NC) programming language. It is used in
 Computer Aided Manufacturing (CAM) to control automated machine.
