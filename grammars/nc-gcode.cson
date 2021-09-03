@@ -39,11 +39,11 @@
     'name': 'support.function.rzcode.gcod'
   }
   {
-    'match': '(?i)[XAUIL][ \\t]*[\\-\\+]?[0-9\\.]+'
+    'match': '(?i)[XABUIL][ \\t]*[\\-\\+]?[0-9\\.]+'
     'name': 'constant.xcode.nc-gcode'
   }
   {
-    'match': '(?i)[YBVJQ][ \\t]*[\\-\\+]?[0-9\\.]+'
+    'match': '(?i)[YVJQ][ \\t]*[\\-\\+]?[0-9\\.]+'
     'name': 'string.ycode.nc-gcode'
   }
   {

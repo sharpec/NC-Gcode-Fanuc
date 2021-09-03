@@ -5,7 +5,7 @@
     'body': """
       O0000
 
-      N1(NOME_PROGRAMMA)
+      N1(NOME_PROGRAMMA_SIGMA)
 
       N10(CICLO_PRINCIPALE)
 
@@ -38,14 +38,16 @@
       M01
       M30
 
+
+
       N11(SUB_1)
 
       M98Q12L1
-
       M99
 
-      N12(SUB_2)
 
+
+      N12(SUB_2)
       M99
       """
 
@@ -55,7 +57,11 @@
     'body': """
       O0000
 
-      N1(NOME_PROGRAMMA)
+      N1(NOME_PROGRAMMA_FANUC)
+
+      G10L50
+      N1321P3R-140000
+      G11
 
       N10(CICLO_PRINCIPALE)
 
@@ -86,15 +92,22 @@
       G0G53Y0.X-1050.
       M05
       M01
+
+      G10L50
+      N1321P3R-512000
+      G11
+
       M30
+
+
 
       N11(SUB_1)
 
       M98Q12L1
-
       M99
 
-      N12(SUB_2)
 
+
+      N12(SUB_2)
       M99
       """
