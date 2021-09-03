@@ -1,0 +1,100 @@
+'.source.nc-gcode':
+  # MACCHINA SIGMA
+  'SIGMA':
+    'prefix': 'sig'
+    'body': """
+      O0000
+
+      N1(NOME_PROGRAMMA)
+
+      N10(CICLO_PRINCIPALE)
+
+      G52X0Y0
+      G90G40G80
+      G54
+      G0G91G28Z0.
+      G90
+      G0G53Y0.X-800.
+
+      T1(FRESA-1MM)
+      M6
+      S8000
+      M3
+      /M8
+      G54
+      M26
+
+      G0X0.Y0.A0.
+      G43H1Z50.
+      G1Z5F5000
+      M98Q11L1
+      G0G91G28Z0.
+
+      G52X0Y0
+      G90G40G80
+      G54
+      G0G53Y0.X-800.
+      M05
+      M01
+      M30
+
+      N11(SUB_1)
+
+      M98Q12L1
+
+      M99
+
+      N12(SUB_2)
+
+      M99
+      """
+
+  # MACCHINA FANUC
+  'FANUC':
+    'prefix': 'fan'
+    'body': """
+      O0000
+
+      N1(NOME_PROGRAMMA)
+
+      N10(CICLO_PRINCIPALE)
+
+      G52X0Y0
+      G90G40G80
+      G54
+      G0G91G28Z0.
+      G90
+      G0G53Y0.X-1050.
+
+      T1(FRESA-1MM)
+      M6
+      S8000
+      M3
+      /M8
+      G54
+      M80
+
+      G0X0.Y0.B0.
+      G43H1Z50.
+      G1Z5F1000
+      M98Q11L1
+      G0G91G28Z0.
+
+      G52X0Y0
+      G90G40G80
+      G54
+      G0G53Y0.X-1050.
+      M05
+      M01
+      M30
+
+      N11(SUB_1)
+
+      M98Q12L1
+
+      M99
+
+      N12(SUB_2)
+
+      M99
+      """

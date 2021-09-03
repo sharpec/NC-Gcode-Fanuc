@@ -1,3 +1,4 @@
+'scopeName': 'source.nc-gcode'
 'fileTypes': [
   'nc'
   'gcode'
@@ -54,4 +55,3 @@
     'name': 'string.control.mcode.nc-gcode'
   }
 ]
-'scopeName': 'source.nc-gcode'
