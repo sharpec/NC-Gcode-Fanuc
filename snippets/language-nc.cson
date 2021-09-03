@@ -1,4 +1,4 @@
-'.source.nc-gcode':
+'.source.nc':
   # MACCHINA SIGMA
   'SIGMA':
     'prefix': 'sig'

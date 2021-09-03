@@ -1,4 +1,4 @@
-'scopeName': 'source.nc-gcode'
+'scopeName': 'source.nc'
 'fileTypes': [
   'nc'
   'gcode'
